@@ -42,6 +42,6 @@
 
 QQ Group: 23304408
 
-![image](Screenshot/QRCode.png)
+![image](ScreenShot/QRCode.png)
 
 
