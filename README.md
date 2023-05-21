@@ -3,13 +3,13 @@
 ![image](ScreenShot/JINGYUEB760I.png)
 
 
-### To Be Test & Upload ...
+### This EFI Need  To Test  ...
 
 ### [简体中文](README.zh_CN.md)
 
 ### OpenCore
 
-[OpenCore 0.9.1](https://github.com/acidanthera/OpenCorePkg)
+[OpenCore 0.9.2](https://github.com/acidanthera/OpenCorePkg)
 
 ### OS Version Tested
 
@@ -37,5 +37,11 @@
 
 | Name | Option |
 | ----- | --- |
+
+### Contact Us
+
+QQ Group: 23304408
+
+![image](Screenshot/QRCode.png)
 
 
