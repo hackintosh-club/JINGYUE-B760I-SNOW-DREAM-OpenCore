@@ -43,7 +43,7 @@
   |-- 高级
      |-- CSM配置
 	    |-- CSM支持：关闭
-
+		
 安全
   |-- 安全启动
     |-- 安全启动：关闭
@@ -62,16 +62,8 @@ QQ群: 23304408
 ![image](ScreenShot/QRCode.png)
 
 
+
 ### 常用工具
-
-- [Hackintool](https://github.com/headkaze/Hackintool) 
-- [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) AKA `OCAT`.
-- [OpenCore Configurator](https://mackie100projects.altervista.org/opencore-configurator/) AKA `OCC`.
-- [gibMacOS](https://github.com/corpnewt/gibMacOS) Build your own MacOS image.
-- [ProperTree](https://github.com/corpnewt/ProperTree) Plist editor.
-
-
-### Tools
 
 - [Hackintool](https://github.com/headkaze/Hackintool) 
 - [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) AKA `OCAT`.
