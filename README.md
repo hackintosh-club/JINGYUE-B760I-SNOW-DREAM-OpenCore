@@ -1,4 +1,4 @@
-## JINGYUE-B760I-SNOW-DREAM Hackintosh OpenCore EFI
+## JINGYUE B760I SNOW DREAM Hackintosh OpenCore EFI
 
 ![image](ScreenShot/JINGYUEB760I.png)
 
@@ -18,9 +18,9 @@
 
 ### Hardware
 
-- Motherboard: JINGYUE B760I SNOW DREAM
+- Motherboard: B760
 - Bios Version:JYI76008（2023-03-29）
-- CPU: Intel i5-13400
+- CPU: Intel 13th i5-13400
 - RAM: 
 - SSD: 
 - iGPU: Intel UHD Graphic 730 (Only work in Windows)
@@ -31,12 +31,18 @@
 
 ### Notes
 
- - Use [OpenCore Configurator](https://mackie100projects.altervista.org/opencore-configurator/) build your SMBIOS
+ - Use [OpenCore Configurator](https://mackie100projects.altervista.org/opencore-configurator/) or [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) build your SMBIOS
 
 ### Bios Setup
 
-| Name | Option |
-| ----- | --- |
+```
+Settings
+  |-- Security
+     |-- Secure Boot
+       |-- Secure Boot: Disabled
+       
+
+```
 
 ### Contact Us
 
@@ -44,3 +50,11 @@ QQ Group: 23304408
 
 ![image](ScreenShot/QRCode.png)
 
+
+### Tools
+
+- [Hackintool](https://github.com/headkaze/Hackintool) 
+- [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) AKA `OCAT`.
+- [OpenCore Configurator](https://mackie100projects.altervista.org/opencore-configurator/) AKA `OCC`.
+- [gibMacOS](https://github.com/corpnewt/gibMacOS) Build your own MacOS image.
+- [ProperTree](https://github.com/corpnewt/ProperTree) Plist editor.
