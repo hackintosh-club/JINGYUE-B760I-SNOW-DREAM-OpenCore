@@ -40,12 +40,17 @@
 ### Bios Setup
 
 ```
-Settings
-  |-- Security
-     |-- Secure Boot
-       |-- Secure Boot: Disabled
-       
+Advanced
+  |-- CPU Configuration
+     |-- CPU Lock Configuration
+	      |-- CFG Lock ：Disabled
+           
+  |-- CSM Configuration
+     |-- CSM Support ：Disabled
 
+BOOT
+   |-- Secure Boot
+      |-- Secure Boot ：Disabled 
 ```
 
 ### Contact Us
