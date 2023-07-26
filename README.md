@@ -19,15 +19,19 @@
 ### Hardware
 
 - Motherboard: B760
-- Bios Version:JYI76008（2023-03-29）
+- Bios Version: JYI76009 06/06/2023
 - CPU: Intel 13th i5-13400
-- RAM: 
-- SSD: 
+- RAM: KingBank 32GB DDR4 3600Mhz
+- SSD: Fanxiang S790 1TB Windows
+- SSD: WD SN 770 1TB MacOS
 - iGPU: Intel UHD Graphic 730 (Only work in Windows)
-- GPU:
-- Audio: Realtek 
-- Ethernet Card: 
-- PSU: 
+- GPU: Sapphire Radeon RX 570 8GB GDDR5
+- Audio: Realtek ALC897
+- Ethernet Card: Realtek RTL8125 Gaming 2.5GbE
+- Ethernet Card: Realtek RTL8168H/8111H
+- WIFI: THERMALRIGHT AXP90-AX47
+- CASE: PCCOOLER Humming Bird i100 PRO
+- PSU:  FSP MS 500W 80 BRONZE
 
 ### Notes
 
