@@ -79,6 +79,8 @@
                 <true/>
                 <key>EnableWriteUnprotector</key>
                 <true/>
+                <key>FixupAppleEfiImages</key>
+                <false/>
                 <key>ForceBooterSignature</key>
                 <false/>
                 <key>ForceExitBootServices</key>
@@ -194,7 +196,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.8.6</string>
+                    <string>V1.8.8</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -340,7 +342,7 @@
                     <key>Comment</key>
                     <string>V1.1.1</string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/USBToolBox</string>
                     <key>MaxKernel</key>
@@ -358,7 +360,7 @@
                     <key>Comment</key>
                     <string>V1.1</string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>ExecutablePath</key>
                     <string></string>
                     <key>MaxKernel</key>
@@ -376,7 +378,7 @@
                     <key>Comment</key>
                     <string>V1.0</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string></string>
                     <key>MaxKernel</key>
@@ -703,8 +705,6 @@
                     <integer>1</integer>
                     <key>rtc-blacklist</key>
                     <data></data>
-                    <key>run-efi-updater</key>
-                    <string>No</string>
                 </dict>
                 <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
                 <dict>
@@ -785,13 +785,13 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>F5K921403GUK3F7UE</string>
+                <string>F5K316108GUK3F7JC</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
                 <integer>3841</integer>
                 <key>ROM</key>
-                <data>jEItDqA3</data>
+                <data>WNesbt4t</data>
                 <key>SpoofVendor</key>
                 <true/>
                 <key>SystemMemoryStatus</key>
@@ -799,9 +799,9 @@
                 <key>SystemProductName</key>
                 <string>MacPro7,1</string>
                 <key>SystemSerialNumber</key>
-                <string>F5KYRXYJP7QM</string>
+                <string>F5KKL08YP7QM</string>
                 <key>SystemUUID</key>
-                <string>10A0281A-72BA-4C37-90BB-56F97D5AE9B9</string>
+                <string>0637B0F8-8542-487F-9D33-723CB469710F</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
@@ -1004,7 +1004,7 @@
                 <key>TextRenderer</key>
                 <string>BuiltinGraphics</string>
                 <key>UIScale</key>
-                <integer>1</integer>
+                <integer>0</integer>
                 <key>UgaPassThrough</key>
                 <false/>
             </dict>
