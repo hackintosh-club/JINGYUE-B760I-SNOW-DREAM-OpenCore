@@ -42,7 +42,8 @@
      |-- CPU电源管理控制
         |-- CPU锁配置
 	         |-- CFG锁定：关闭
-	         
+	   |-- PCI总线驱动版本     
+	       |-- Re-Size BAR Support：Disabled
      |-- CSM配置
 	      |-- CSM支持：关闭
 		

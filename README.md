@@ -45,6 +45,8 @@ Advanced
   |-- CPU Configuration
      |-- CPU Lock Configuration
 	      |-- CFG Lock ：Disabled
+	      
+	Re-Size BAR Support：Disabled
            
   |-- CSM Configuration
      |-- CSM Support ：Disabled
