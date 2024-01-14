@@ -34,6 +34,14 @@
                     <key>Path</key>
                     <string>SSDT-PLUG-ALT.aml</string>
                 </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-SleepFixup.aml</string>
+                </dict>
             </array>
             <key>Delete</key>
             <array/>
@@ -45,7 +53,7 @@
                     <key>BaseSkip</key>
                     <integer>0</integer>
                     <key>Comment</key>
-                    <string>Fix Sleep:XDCI</string>
+                    <string>Fix Sleep:XHCI</string>
                     <key>Count</key>
                     <integer>1</integer>
                     <key>Enabled</key>
@@ -63,7 +71,7 @@
                     <key>ReplaceMask</key>
                     <data></data>
                     <key>Skip</key>
-                    <integer>4</integer>
+                    <integer>3</integer>
                     <key>TableLength</key>
                     <integer>0</integer>
                     <key>TableSignature</key>
@@ -77,11 +85,11 @@
                     <key>Comment</key>
                     <string>Fix Sleep:CNVW</string>
                     <key>Count</key>
-                    <integer>1</integer>
+                    <integer>0</integer>
                     <key>Enabled</key>
                     <true/>
                     <key>Find</key>
-                    <data>X1BSVw==</data>
+                    <data>CV9TMFcApAoDFA9fUFJX</data>
                     <key>Limit</key>
                     <integer>0</integer>
                     <key>Mask</key>
@@ -89,11 +97,11 @@
                     <key>OemTableId</key>
                     <data></data>
                     <key>Replace</key>
-                    <data>WFBSVw==</data>
+                    <data>CV9TMFcApAoDFA9YUFJX</data>
                     <key>ReplaceMask</key>
                     <data></data>
                     <key>Skip</key>
-                    <integer>6</integer>
+                    <integer>0</integer>
                     <key>TableLength</key>
                     <integer>0</integer>
                     <key>TableSignature</key>
@@ -105,13 +113,13 @@
                     <key>BaseSkip</key>
                     <integer>0</integer>
                     <key>Comment</key>
-                    <string>Fix Sleep:RP04|RP05</string>
+                    <string>Fix Sleep:XDCI</string>
                     <key>Count</key>
-                    <integer>2</integer>
+                    <integer>0</integer>
                     <key>Enabled</key>
                     <true/>
                     <key>Find</key>
-                    <data>X1BSVw==</data>
+                    <data>CgMUBl9EU1cDFA9fUFJX</data>
                     <key>Limit</key>
                     <integer>0</integer>
                     <key>Mask</key>
@@ -119,11 +127,11 @@
                     <key>OemTableId</key>
                     <data></data>
                     <key>Replace</key>
-                    <data>WFBSVw==</data>
+                    <data>CgMUBl9EU1cDFA9YUFJX</data>
                     <key>ReplaceMask</key>
                     <data></data>
                     <key>Skip</key>
-                    <integer>38</integer>
+                    <integer>0</integer>
                     <key>TableLength</key>
                     <integer>0</integer>
                     <key>TableSignature</key>
@@ -135,13 +143,13 @@
                     <key>BaseSkip</key>
                     <integer>0</integer>
                     <key>Comment</key>
-                    <string>Fix Sleep:RP09</string>
+                    <string>Fix Sleep:XHCI-_PTS -> XPTS</string>
                     <key>Count</key>
-                    <integer>1</integer>
+                    <integer>0</integer>
                     <key>Enabled</key>
                     <true/>
                     <key>Find</key>
-                    <data>X1BSVw==</data>
+                    <data>X1BUUwE=</data>
                     <key>Limit</key>
                     <integer>0</integer>
                     <key>Mask</key>
@@ -149,41 +157,11 @@
                     <key>OemTableId</key>
                     <data></data>
                     <key>Replace</key>
-                    <data>WFBSVw==</data>
+                    <data>WFBUUwE=</data>
                     <key>ReplaceMask</key>
                     <data></data>
                     <key>Skip</key>
-                    <integer>43</integer>
-                    <key>TableLength</key>
                     <integer>0</integer>
-                    <key>TableSignature</key>
-                    <data>RFNEVA==</data>
-                </dict>
-                <dict>
-                    <key>Base</key>
-                    <string></string>
-                    <key>BaseSkip</key>
-                    <integer>0</integer>
-                    <key>Comment</key>
-                    <string>Fix Sleep:RP21</string>
-                    <key>Count</key>
-                    <integer>1</integer>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Find</key>
-                    <data>X1BSVw==</data>
-                    <key>Limit</key>
-                    <integer>0</integer>
-                    <key>Mask</key>
-                    <data></data>
-                    <key>OemTableId</key>
-                    <data></data>
-                    <key>Replace</key>
-                    <data>WFBSVw==</data>
-                    <key>ReplaceMask</key>
-                    <data></data>
-                    <key>Skip</key>
-                    <integer>55</integer>
                     <key>TableLength</key>
                     <integer>0</integer>
                     <key>TableSignature</key>
