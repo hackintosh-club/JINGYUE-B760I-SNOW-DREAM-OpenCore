@@ -6,7 +6,7 @@
 
 ### OpenCore
 
-[OpenCore 1.0.0](https://github.com/acidanthera/OpenCorePkg)
+[OpenCore 1.0.1](https://github.com/acidanthera/OpenCorePkg)
 
 ### OS Version Tested
 
@@ -27,7 +27,7 @@
 - Audio: Realtek ALC897
 - Ethernet Card: Realtek RTL8125 Gaming 2.5GbE
 - Ethernet Card: Realtek RTL8168H/8111H
-- WIFI: THERMALRIGHT AXP90-AX47
+- WIFI: BCM943602CS
 - CASE: PCCOOLER Humming Bird i100 PRO
 - PSU:  FSP MS 500W 80 BRONZE
 
