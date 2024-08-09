@@ -6,7 +6,7 @@
 
 ### OpenCore
 
-[OpenCore 1.0.0](https://github.com/acidanthera/OpenCorePkg)
+[OpenCore 1.0.1](https://github.com/acidanthera/OpenCorePkg)
 
 ### macOS
 
@@ -27,7 +27,7 @@
 - 声卡: 瑞昱 ALC897
 - 有线网卡:  瑞昱 RTL8125 Gaming 2.5GbE
 - 有线网卡: 瑞昱 RTL8168H/8111H
-- 无线网卡: 英特尔 AX211
+- 无线网卡: BCM943602CS
 - 处理器散热：利民 AXP90-AX47
 - 机箱:  超频三 蜂鸟 i100pro
 - 电源:  全汉经典版 MS 500W 80 铜牌全模组
