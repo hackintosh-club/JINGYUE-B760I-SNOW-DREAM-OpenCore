@@ -735,7 +735,7 @@
                 <key>ScanPolicy</key>
                 <integer>0</integer>
                 <key>SecureBootModel</key>
-                <string>Default</string>
+                <string>Disabled</string>
                 <key>Vault</key>
                 <string>Optional</string>
             </dict>
@@ -791,6 +791,8 @@
                 <dict>
                     <key>revcpu</key>
                     <integer>1</integer>
+                    <key>revpatch</key>
+                    <string>sbvmm,cpuname</string>
                     <key>rtc-blacklist</key>
                     <data></data>
                 </dict>
@@ -873,13 +875,13 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>F5K323310J9K3F7FB</string>
+                <string>F5K013102GUK3F7FB</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
                 <integer>3841</integer>
                 <key>ROM</key>
-                <data>bt0Sgspe</data>
+                <data>PR4Awpa6</data>
                 <key>SpoofVendor</key>
                 <true/>
                 <key>SystemMemoryStatus</key>
@@ -887,9 +889,9 @@
                 <key>SystemProductName</key>
                 <string>MacPro7,1</string>
                 <key>SystemSerialNumber</key>
-                <string>F5KKT3ZGP7QM</string>
+                <string>F5KCHBZ3P7QM</string>
                 <key>SystemUUID</key>
-                <string>486F20C1-1974-4A97-A823-E84A2BAD3419</string>
+                <string>8DBE306E-2888-49D1-866B-8D555B0A5B6A</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
