@@ -11,8 +11,9 @@
 ### OS Version Tested
 
 - macOS Monterey 12.x
-- macOS Ventura  13.x
+- macOS Ventura    13.x
 - macOS Sonoma   14.x
+- macOS Sequoia   15.x
 
 ### Hardware
 
@@ -33,9 +34,9 @@
 
 ### Notes
 
- - Use [OpenCore Configurator](https://mackie100projects.altervista.org/opencore-configurator/) or [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) build your SMBIOS
+ - Use [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) build your SMBIOS
  - If you want to use a CPU without  Efficient-Core, you must uncheck the option in the config.plist file Kernel--ProvideCurrentCpuinfo
- - Intel WiFi driver [AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm/releases) in this EFI is only applicable to MacOS 14 Sonoma. Please download and replace this driver yourself when installing other MacOS versions
+ - Intel WiFi driver [itlwm.kext](https://github.com/OpenIntelWireless/itlwm/releases) in this EFI is applicable MacOS 12-15. Connect WiFi Please download [HeliPort.dmg](https://github.com/OpenIntelWireless/HeliPort/releases/download/v2.0.0-alpha/HeliPort.dmg).
  - Intel Not Supported  Airdrop
 
 ### Bios Setup
