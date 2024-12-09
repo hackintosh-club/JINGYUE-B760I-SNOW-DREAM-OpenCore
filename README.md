@@ -6,7 +6,7 @@
 
 ### OpenCore
 
-[OpenCore 1.0.2](https://github.com/acidanthera/OpenCorePkg)
+[OpenCore 1.0.3](https://github.com/acidanthera/OpenCorePkg)
 
 ### OS Version Tested
 
@@ -65,7 +65,7 @@ QQ Group: 23304408
 
 
 ### Tools
-
+- [OpenCore-Legacy-Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher)
 - [Hackintool](https://github.com/headkaze/Hackintool) 
 - [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) AKA `OCAT`.
 - [OpenCore Configurator](https://mackie100projects.altervista.org/opencore-configurator/) AKA `OCC`.
