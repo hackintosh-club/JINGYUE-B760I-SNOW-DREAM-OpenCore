@@ -6,7 +6,7 @@
 
 ### OpenCore
 
-[OpenCore 1.0.3](https://github.com/acidanthera/OpenCorePkg)
+[OpenCore 1.0.7](https://github.com/acidanthera/OpenCorePkg)
 
 ### OS Version Tested
 
@@ -14,6 +14,22 @@
 - macOS Ventura    13.x
 - macOS Sonoma   14.x
 - macOS Sequoia   15.x
+- macOS Tahoe   26.x
+
+### Main EFI Components
+
+| Component | Version / configuration |
+| --- | --- |
+| OpenCore | 1.0.7 |
+| Lilu | 1.7.3 |
+| VirtualSMC | 1.3.8 |
+| WhateverGreen | 1.7.1 |
+| AppleALC | 1.9.8 |
+| RestrictEvents | 1.1.7 |
+| RealtekRTL8111 | 2.5.0 |
+| LucyRTL8125Ethernet | 1.2.3 |
+| USB map | SimpleUSBMap 1.0.2 |
+| Broadcom Wi-Fi compatibility | AMFIPass 1.4.1, IOSkywalkFamily and IO80211FamilyLegacy |
 
 ### Hardware
 
@@ -34,10 +50,11 @@
 
 ### Notes
 
- - Use [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) build your SMBIOS
- - If you want to use a CPU without  Efficient-Core, you must uncheck the option in the config.plist file Kernel--ProvideCurrentCpuinfo
- - Intel WiFi driver [itlwm.kext](https://github.com/OpenIntelWireless/itlwm/releases) in this EFI is applicable MacOS 12-15. Connect WiFi Please download [HeliPort.dmg](https://github.com/OpenIntelWireless/HeliPort/releases/download/v2.0.0-alpha/HeliPort.dmg).
- - Intel Not Supported  Airdrop
+- After installation, use [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) to generate your own SMBIOS information. Do not reuse the example identity in `config.plist`.
+- If you use a CPU without Efficient Cores, disable `Kernel -> Quirks -> ProvideCurrentCpuInfo` in `config.plist`.
+- The included Wi-Fi configuration targets the BCM943602CS listed below. On macOS Sonoma 14 and later, it uses `IOSkywalkFamily.kext`, `IO80211FamilyLegacy.kext` and `AMFIPass.kext`; the required root patches can be applied with [OpenCore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher).
+- The current configuration contains the compatibility boot argument `-lilubetaall` for newer macOS versions. Remove it after all related Kexts officially support the macOS version you use.
+- USB mapping now uses `SimpleUSBMap.kext`; the previous `USBToolBox.kext` and `UTBMap.kext` are no longer used.
 
 ### Bios Setup
 

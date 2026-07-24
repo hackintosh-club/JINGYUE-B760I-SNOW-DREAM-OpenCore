@@ -6,7 +6,7 @@
 
 ### OpenCore
 
-[OpenCore 1.0.3](https://github.com/acidanthera/OpenCorePkg)
+[OpenCore 1.0.7](https://github.com/acidanthera/OpenCorePkg)
 
 ### macOS
 
@@ -14,6 +14,22 @@
 - macOS Ventura    13.x
 - macOS Sonoma   14.x
 - macOS Sequoia   15.x
+- macOS Tahoe   26.x
+
+### EFI 主要组件
+
+| 组件 | 版本 / 配置 |
+| --- | --- |
+| OpenCore | 1.0.7 |
+| Lilu | 1.7.3 |
+| VirtualSMC | 1.3.8 |
+| WhateverGreen | 1.7.1 |
+| AppleALC | 1.9.8 |
+| RestrictEvents | 1.1.7 |
+| RealtekRTL8111 | 2.5.0 |
+| LucyRTL8125Ethernet | 1.2.3 |
+| USB 定制 | SimpleUSBMap 1.0.2 |
+| 博通无线兼容 | AMFIPass 1.4.1、IOSkywalkFamily、IO80211FamilyLegacy |
 
 ### 硬件
 
@@ -52,10 +68,11 @@
 
 ### 注意事项
 
- - 安装成功后必须使用 [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) 生成你自己的 SMBIOS
- - 如需使用没有小核心的CPU，必须取消勾选配置文件中Kernel--ProvideCurrentCpuinfo选项
- - 此EFI中的英特尔无线网卡驱动[itlwm.kext](https://github.com/OpenIntelWireless/itlwm/releases)适用于 MacOS 所有版本,连结WiFi请下载并使用[HeliPort.dmg](https://github.com/OpenIntelWireless/HeliPort/releases/download/v2.0.0-alpha/HeliPort.dmg).
- - 英特尔无线网卡无法使用隔空投送等功能
+- 安装成功后，请使用 [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) 生成你自己的 SMBIOS 信息，不要直接沿用 `config.plist` 中的示例身份信息。
+- 如需使用没有能效核（小核心）的 CPU，请在 `config.plist` 中关闭 `Kernel -> Quirks -> ProvideCurrentCpuInfo`。
+- 当前内置无线配置对应硬件列表中的 BCM943602CS。在 macOS Sonoma 14 及更高版本中，通过 `IOSkywalkFamily.kext`、`IO80211FamilyLegacy.kext` 和 `AMFIPass.kext` 提供兼容，并需要使用 [OpenCore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher) 应用相应的根补丁。
+- 当前配置为较新 macOS 保留了兼容启动参数 `-lilubetaall`；待相关 Kext 正式支持所用系统版本后，可将其移除。
+- USB 定制已改用 `SimpleUSBMap.kext`，不再使用原来的 `USBToolBox.kext` 和 `UTBMap.kext`。
 
 ### 参考内容
 
